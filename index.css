@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  color: #7c7c7c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mobile-frame {
+  background-image: linear-gradient(
+    45deg,
+    rgb(231, 226, 228) 0%,
+    rgb(210, 231, 224) 50%,
+    rgb(218, 210, 232) 100%
+  );
+  margin: 50px auto;
+  width: 390px;
+  height: 935px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.pageName {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.bb {
+  text-decoration: underline;
+}
+.card {
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.26);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  color: #fff;
+}
+.card-left {
+  width: 130px;
+  padding: 5px 8px 5px 8px;
+  display: flex;
+  align-items: center;
+}
+.card-right {
+  display: flex;
+  margin-bottom: 15px;
+}
+.card-right h1 {
+  font-size: 24px;
+}
+.card-right .user-email {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.card-wrap {
+  padding: 5px 15px 5px 15px;
+  width: 100%;
+}
+.card-right .user-detail {
+  flex: 1;
+}
+.card-right .user-badge {
+  margin-left: auto;
+  border: solid 3px #68ddc0;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(-45deg);
+  margin-top: 10px;
+}
+.card-right .user-badge-item {
+  background-color: #6243ff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.11);
+  border-radius: 3px;
+  width: 43px;
+  height: 43px;
+  transform: rotate(45deg);
+  text-align: center;
+  line-height: 43px;
+  margin: 0 auto;
+  position: relative;
+  left: -2px;
+  top: -2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-wrap .user-member {
+  margin: 15px 0;
+}
+
+.pfImage {
+  width: 130px;
+  height: 180px;
+}
+.key {
+  font-weight: 400;
+  font-size: 6px;
+}
+.value {
+  font-size: 11px;
+}
+.user-bages-sign div {
+  display: flex;
+  align-items: center;
+}
+.profile-nav {
+  background-color: #d9d9d9;
+  border-radius: 13px;
+  padding: 2px;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 7px 0;
+}
+#about,
+#post {
+  border-radius: 13px;
+  padding: 3px 16px;
+  border: none;
+  font-size: 11px;
+  font-weight: 600;
+}
+#post {
+  color: #7c7c7c;
+  background-color: #d9d9d9;
+}
+#about {
+  color: white;
+  background-color: #6243ff;
+}
+.title {
+  color: #7258f6;
+  padding: 10px;
+}
+.bio {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+.bio-item {
+  color: #7c7c7c;
+  font-weight: 500;
+  font-size: 11px;
+}
+.topic h4 {
+  padding: 10px;
+}
+.topic-item {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  margin: 4px;
+  border-radius: 10px;
+  text-align: center;
+}
+.topic-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.topic-item h5 {
+  font-size: 12px;
+  color: white;
+}
+.topic-item img {
+  padding-top: 10px;
+}
+.rama {
+  background-color: #16e0bd;
+}
+.green {
+  background-color: #b0d04d;
+}
+.blue {
+  background-color: #7259f6;
+}
+.black {
+  background-color: black;
+}
+#post-toggle {
+  display: none;
+}
